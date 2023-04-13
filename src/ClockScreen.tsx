@@ -11,7 +11,7 @@ const ClockScreen: React.FC<ClockProps> = ({ variant, dateTime }) => {
   return (
     <div
       className={cx(
-        "flex flex-col justify-evenly items-center",
+        "flex flex-col justify-evenly items-center min-w-min min-h-[calc(100vh-56px)] grow overflow-hidden",
         {
           light: "bg-zinc-100",
           dark: "bg-zinc-800",
@@ -36,7 +36,7 @@ const ClockScreen: React.FC<ClockProps> = ({ variant, dateTime }) => {
 
       <div
         className={cx(
-          "flex flex-col items-center gap-4 mb-16",
+          "flex flex-col items-center gap-4",
           {
             light: "text-zinc-800",
             dark: "text-zinc-50",

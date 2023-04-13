@@ -63,7 +63,7 @@ const Clock: React.FC<ClockProps> = ({ variant, dateTime }) => {
   return (
     <div
       className={cx(
-        "flex justify-center items-center w-80 h-80 rounded-full drop-shadow-2xl shadow-zinc-950 ",
+        "flex justify-center items-center w-80 h-80 rounded-full drop-shadow-2xl shadow-zinc-950 m-10",
         {
           light: "bg-zinc-50",
           dark: "bg-indigo-700",

@@ -26,13 +26,15 @@ function App() {
   }, []);
 
   return (
-    <div className="w-screen h-screen grid grid-cols-3">
-      <ClockScreen variant="light" dateTime={datetime.tz("Europe/London")} />
-      <ClockScreen variant="dark" dateTime={datetime.tz("Europe/Moscow")} />
-      <ClockScreen
-        variant="colorful"
-        dateTime={datetime.tz("Asia/Singapore")}
-      />
+    <div className="w-full min-h-screen flex flex-col">
+      <div className="flex flex-wrap grow">
+        <ClockScreen variant="light" dateTime={datetime.tz("Europe/London")} />
+        <ClockScreen variant="dark" dateTime={datetime.tz("Europe/Moscow")} />
+        <ClockScreen
+          variant="colorful"
+          dateTime={datetime.tz("Asia/Singapore")}
+        />
+      </div>
       <Footer />
     </div>
   );

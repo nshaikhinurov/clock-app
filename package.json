@@ -2,6 +2,7 @@
   "name": "clock-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nshaikhinurov.github.io/clock-app",
   "dependencies": {
     "@types/node": "^16.18.23",
     "@types/react": "^18.0.35",

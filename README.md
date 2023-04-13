@@ -19,6 +19,10 @@ React-приложение “Часы”.
 
 React, TypeScript, HTML, CSS, Tailwind CSS, ESLint, Prettier
 
+## Screenshots
+
+![](screenshots/screenshot.png)
+
 ## Demo
 
 Рабочая версия приложения развернута на github.io
